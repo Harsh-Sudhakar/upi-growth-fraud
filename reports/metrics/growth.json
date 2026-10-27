@@ -1,0 +1,138 @@
+{
+  "headline": {
+    "total_users": 100000,
+    "final_mau": 27618,
+    "mau_cmgr": 0.14046389590886288,
+    "final_stickiness": 0.1525,
+    "kyc_rate": 0.8339318725052691,
+    "activation_rate": 0.28123491386923194,
+    "top20_revenue_share": 0.6742452461895174,
+    "champions_user_share": 0.23685151583380792,
+    "champions_revenue_share": 0.6110563492847148,
+    "best_channel": "referral",
+    "best_channel_clv": 32.73427841453441,
+    "worst_channel": "paid",
+    "worst_channel_clv": 12.039706556001565,
+    "activation_retention_lift_pp": 0.24169448230447366,
+    "activation_adjusted_odds_ratio": 3.0391449047698837,
+    "m6_retention_activated": 0.439,
+    "m6_retention_not_activated": 0.1664
+  },
+  "clv_by_channel": [
+    {
+      "segment": "referral",
+      "m1_retention": 0.7613,
+      "m6_retention": 0.3627,
+      "m12_retention": 0.2397,
+      "revenue_per_active_month": 4.6562,
+      "clv_24m": 32.73427841453441,
+      "clv_24m_per_signup": 27.287294486355883
+    },
+    {
+      "segment": "organic",
+      "m1_retention": 0.6533,
+      "m6_retention": 0.2342,
+      "m12_retention": 0.136,
+      "revenue_per_active_month": 3.6446,
+      "clv_24m": 17.542724285056696,
+      "clv_24m_per_signup": 14.641157688308319
+    },
+    {
+      "segment": "paid",
+      "m1_retention": 0.5975,
+      "m6_retention": 0.1926,
+      "m12_retention": 0.1019,
+      "revenue_per_active_month": 3.006,
+      "clv_24m": 12.039706556001565,
+      "clv_24m_per_signup": 10.051951003605707
+    }
+  ],
+  "rfm": [
+    {
+      "rfm_segment": "Champions",
+      "users": 17883,
+      "avg_recency_days": 6.663591120058156,
+      "avg_txns": 44.528770340546885,
+      "avg_revenue": 34.90655482860818,
+      "share_of_users": 0.23685151583380792,
+      "share_of_revenue": 0.6110563492847148
+    },
+    {
+      "rfm_segment": "At risk",
+      "users": 13651,
+      "avg_recency_days": 277.1155959270383,
+      "avg_txns": 16.667277122555124,
+      "avg_revenue": 12.905371035089004,
+      "share_of_users": 0.18080076288359404,
+      "share_of_revenue": 0.17245224761614095
+    },
+    {
+      "rfm_segment": "Loyal",
+      "users": 13768,
+      "avg_recency_days": 58.00740848343986,
+      "avg_txns": 15.204241719930273,
+      "avg_revenue": 11.824666618245207,
+      "share_of_users": 0.1823503701839662,
+      "share_of_revenue": 0.15936526148212776
+    },
+    {
+      "rfm_segment": "Needs attention",
+      "users": 6753,
+      "avg_recency_days": 88.54657189397305,
+      "avg_txns": 2.576632607729898,
+      "avg_revenue": 1.9598326669628314,
+      "share_of_users": 0.0894401546958399,
+      "share_of_revenue": 0.012955364583033037
+    },
+    {
+      "rfm_segment": "Hibernating",
+      "users": 16550,
+      "avg_recency_days": 303.39534743202415,
+      "avg_txns": 2.548700906344411,
+      "avg_revenue": 1.9460670694864048,
+      "share_of_users": 0.21919658821503782,
+      "share_of_revenue": 0.03152751195339724
+    },
+    {
+      "rfm_segment": "New / promising",
+      "users": 6898,
+      "avg_recency_days": 10.299072194839084,
+      "avg_txns": 2.4353435778486516,
+      "avg_revenue": 1.87241519280951,
+      "share_of_users": 0.09136060818775413,
+      "share_of_revenue": 0.01264326508058619
+    }
+  ],
+  "funnel": [
+    {
+      "step": "Signed up",
+      "users": 84929,
+      "pct_of_signups": 1.0,
+      "step_conversion": NaN
+    },
+    {
+      "step": "Completed KYC",
+      "users": 70825,
+      "pct_of_signups": 0.8339318725052691,
+      "step_conversion": 0.8339318725052691
+    },
+    {
+      "step": "First transaction",
+      "users": 64659,
+      "pct_of_signups": 0.761330052161217,
+      "step_conversion": 0.9129403459230497
+    },
+    {
+      "step": "Merchant payment in week 1",
+      "users": 23885,
+      "pct_of_signups": 0.28123491386923194,
+      "step_conversion": 0.36939946488501213
+    },
+    {
+      "step": "...and still active on days 30-60",
+      "users": 19104,
+      "pct_of_signups": 0.2249408329310365,
+      "step_conversion": 0.7998325308771196
+    }
+  ]
+}

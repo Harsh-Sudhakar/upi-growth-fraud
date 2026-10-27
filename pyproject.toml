@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "upi-growth-fraud"
+version = "1.0.0"
+description = "UPI growth analytics (retention, CLV, A/B testing) and fraud detection on 590K real transactions."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "pyarrow>=12",
+    "scipy>=1.10",
+    "statsmodels>=0.14",
+    "scikit-learn>=1.2",
+    "xgboost>=2.0",
+    "shap>=0.44",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "nbformat>=5", "nbconvert>=7", "ipykernel>=6"]
+app = ["streamlit>=1.30"]
+data = ["kaggle>=1.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
